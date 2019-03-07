@@ -44,7 +44,7 @@ body {
   background-repeat: none;
   opacity: 0;
   z-index: 0;
-  animation: imageAnimation 36s linear infinite 0s;
+  animation: imageAnimation 54s linear infinite 0s;
   background: #000;
 }
 .cb-slideshow li div {
@@ -59,7 +59,7 @@ body {
 }
 .cb-slideshow li:nth-child(1) .img-span {
   background-image: url("../img/1.jpg");
-  background-position: 50% 100%;
+  background-position: 50% 50%;
 }
 .cb-slideshow li:nth-child(2) .img-span {
   background-image: url("../img/2.jpg");
@@ -74,25 +74,39 @@ body {
 .cb-slideshow li:nth-child(4) .img-span {
   background-image: url("../img/4.jpg");
   animation-delay: 18s;
-  background-position: 50% 60%;
+  background-position: 50% 50%;
 }
 .cb-slideshow li:nth-child(5) .img-span {
   background-image: url("../img/5.jpg");
   animation-delay: 24s;
-  background-position: 50% 40%;
+  background-position: 50% 50%;
 }
 
 .cb-slideshow li:nth-child(6) .img-span {
   background-image: url("../img/6.jpg");
   animation-delay: 30s;
-  background-position: 50% 40%;
+  background-position: 50% 50%;
 }
 
 .cb-slideshow li:nth-child(7) .img-span {
-  background-image: url("../img/7.gif");
+  background-image: url("../img/7.jpg");
   animation-delay: 36s;
-  background-position: 50% 40%;
+  background-position: 50% 50%;
 }
+
+.cb-slideshow li:nth-child(8) .img-span {
+  background-image: url("../img/8.gif");
+  animation-delay: 42s;
+  background-position: 50% 50%;
+}
+
+.cb-slideshow li:nth-child(9) .img-span {
+  background-image: url("../img/10.jpg");
+  animation-delay: 48s;
+  background-position: 50% 50%;
+}
+
+
 .hero {
   text-align: center;
   font-family: 'Raleway', sans-serif;
